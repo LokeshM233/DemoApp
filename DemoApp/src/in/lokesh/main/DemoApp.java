@@ -14,6 +14,11 @@ public class DemoApp {
 		String name = "LokeshM!";
 		int couunt = name.toUpperCase().length();
 		System.out.println("Length of the string in uppercase: " + couunt);
+		
+		StringBuilder sb = new StringBuilder("MasaniLokesh");
+		int length = sb.append("MURALI").reverse().length();
+		System.out.println("Length of the reversed string: " + length);
 	}
+	
 
 }
