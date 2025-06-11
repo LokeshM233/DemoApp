@@ -8,9 +8,9 @@ public class DemoApp {
 			System.out.println("Element at index " + i + ": " + arr[i]);
 		}
 		//for each loop
-//		for (int element : arr) {
-//			System.out.println("Element: " + element);
-//		}
+		for (int element : arr) {
+			System.out.println("Element: " + element);
+		}
 		String name = "LokeshM!";
 		int couunt = name.toUpperCase().length();
 		System.out.println("Length of the string in uppercase: " + couunt);
